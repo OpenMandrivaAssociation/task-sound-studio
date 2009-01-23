@@ -15,6 +15,9 @@ Suggests:	ardour
 Suggests:	audacity
 Suggests:	jokosher
 Suggests:	gnuitar
+Suggests:	lmms
+Suggests:	pd
+Suggests:	ladspa
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
