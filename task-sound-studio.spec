@@ -1,5 +1,5 @@
 Name:		task-sound-studio
-Version:	0.1
+Version:	0.2
 Release:	%mkrel 1
 Summary:	Metapackage for sound processing
 Group:		Sound
