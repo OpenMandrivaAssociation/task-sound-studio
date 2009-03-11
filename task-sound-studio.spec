@@ -1,6 +1,6 @@
 Name:		task-sound-studio
 Version:	0.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Metapackage for sound processing
 Group:		Sound
 License:	GPLv2+
@@ -15,6 +15,7 @@ Suggests:	ardour
 Suggests:	audacity
 Suggests:	jokosher
 Suggests:	gnuitar
+Suggests:	rakarrack
 Suggests:	lmms
 Suggests:	pd
 Suggests:	ladspa
