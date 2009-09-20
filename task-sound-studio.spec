@@ -1,6 +1,6 @@
 Name:		task-sound-studio
 Version:	0.2
-Release:	%mkrel 2
+Release:	%mkrel 3
 Summary:	Metapackage for sound processing
 Group:		Sound
 License:	GPLv2+
