@@ -1,6 +1,6 @@
 Name: task-sound-studio
 Version: 0.3
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Meta package for Computer-Aided Music 
 Group: Sound
 License: GPLv2+
@@ -30,7 +30,7 @@ Requires: lilypond
 Suggests: mscore
 Requires: soundfont-utils
 Requires: timidity-patch-gravis
-Requires: timidity-patch-freepat
+Requires: timidity-patch-freepats
 Requires: TiMidity++
 Suggests: TiMidity++-interfaces-extra
 Suggests: qsynth
