@@ -1,7 +1,7 @@
 Name: task-sound-studio
 Version: 0.3
 Release: %mkrel 1
-Summary: Metapackage for Computer-Aided Music 
+Summary: Meta package for Computer-Aided Music 
 Group: Sound
 License: GPLv2+
 
@@ -141,8 +141,8 @@ Suggests: kernel-rt-devel-latest
 Suggests: rtirq
 
 # Media players
-Suggest: xine-jack
-Requires: mplayer
+Suggests: xine-jack
+Suggests: mplayer
 Suggests: vlc-plugin-jack
 
 # Desktop-specific configuration files
