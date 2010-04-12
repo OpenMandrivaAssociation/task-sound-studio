@@ -1,74 +1,88 @@
 Name: task-sound-studio
 Version: 0.3
 Release: %mkrel 2
-Summary: Meta package for Computer-Aided Music 
+Summary: Meta package for Sound Studio and Music Production
 Group: Sound
 License: GPLv2+
 
-## By group organization, each have suggests and requires
-#########################################################
+## Packages organized by groups and divided in Suggests and Requires
+####################################################################
 
-# Jack Family
+# Jack engine-related
+Requires: jackit
+Requires: jackit-example-clients
+Requires: laditools
+Requires: qjacktl
+Suggests: ladish
 Suggests: ac3jack
 Suggests: ffado
 Suggests: jackeq
-Requires: jackasyn
-Suggests: jackbeat
-Requires: jackit
-Requires: jackit-example-clients
-Suggests: jack-rack
-Suggests: ladish
-Requires: laditools
-Suggests: qjacktl
 
-# Midibase, soundfonts and tablatures
+# Bridges to other sound systems
+Requires: tritonus-fluidsynth
+Requires: jackasyn
+Suggests: bse-alsa
+
+# Basic MIDI utilities
+Suggests: a2jmidid
+Suggests: vmpk
+Suggests: qmidiroute
+Suggests: qmidiarp
+
+# Soundfont-related
 Requires: fluid-soundfont-common
 Requires: fluid-soundfont-gm
 Requires: fluid-soundfont-gs
-Suggests: ktabedit
-Requires: lilypond
-Suggests: mscore
 Requires: soundfont-utils
+Suggests: swami
 Requires: timidity-patch-gravis
 Requires: timidity-patch-freepats
 Requires: TiMidity++
 Suggests: TiMidity++-interfaces-extra
-Suggests: qsynth
 
-# Ladspa, dssi, LV2 and plugins
-Suggests: a2jmidid
-Requires: blop
-Requires: bse-alsa
-Requires: calf
-Requires: caps
-Requires: cmt
-Requires: dssi
-Suggests: EXEf
-Requires: fluidsynth-dssi
-Requires: fluidsynth
-Requires: hexter
-Suggests: jconv
+# Score and tablature editors
+Requires: lilypond
+Suggests: nted
+Suggests: ktabedit
+Suggests: mscore
+
+# Ladspa system and effect plugins
 Requires: ladspa
 Requires: ladspa-quitte-dsp
-Requires: ll-plugins
-Suggests: ll-plugins-gui
-Requires: lv2core
 Requires: mcp-plugins
-Requires: nekobee
 Requires: pvc
 Requires: pvoc
 Requires: rev-plugins
-Requires: slv2
-Requires: swh-lv2
 Requires: swh-plugins
 Requires: tap-plugins
-Requires: tritonus-fluidsynth
+Requires: cmt
+Requires: blop
+Requires: caps
+
+# LV2 system and plugins
+Requires: lv2core
+Requires: slv2
+Requires: swh-lv2
+Requires: ll-pluginss
+Requires: calf
+Requires: ll-plugins-gui
+Requires: invada-studio-plugins-lv2
+
+# DSSI system and synth plugins
+Requires: dssi
+Requires: fluidsynth-dssi
+Requires: hexter
+Requires: nekobee
 Requires: whysynth
 Requires: wsynth-dssi
 Requires: xsynth-dssi
 
-# Synthes
+# Standalone Synths
+Requires: fluidsynth
+Requires: yoshimi
+Suggests: qsynth
 Suggests: ams
+Suggests: phasex
 Suggests: bristol
 Suggests: bristol-aks
 Suggests: bristol-arp2600
@@ -94,20 +108,17 @@ Suggests: bristol-solina
 Suggests: bristol-vox
 Suggests: kmid2
 Suggests: qsampler
-Suggests: qmidiroute
-Suggests: swami
-Suggests: vmpk
-Requires: yoshimi
 Suggests: zynaddsubfx
 
-# Players, and simple recorders
+# Simple audio recorders and players
 Requires: jack_capture
-Suggests: timemachine
-Requires: uade
-Requires: upse
-Requires: xmp
+Requires: timemachine
+Suggests: qarecord
+Suggests: uade
+Suggests: upse
+Suggests: xmp
 
-# DAW - SAW and Sequencers
+# DAW - SAW and sequencers
 Suggests: ardour
 Suggests: audacity
 Suggests: dino
@@ -117,24 +128,30 @@ Suggests: qtractor
 Suggests: rezound
 Suggests: rosegarden
 Suggests: seq24
+Suggests: jackbeat
+Suggests: beast
 
-# Guitars
+# Effect racks
+Requires: jack-rack
+Requires: zynjacku
 Suggests: ecamegapedal
 Suggests: gnuitar
 Suggests: guitarix
 Suggests: jc_gui
+Suggests: jconv
 Suggests: rakarrack
 Suggests: tuxguitar
 
-# RythmBox, mix and scratch
+# Drum machines, live audio tools
 Suggests: hydrogen
 Suggests: mixxx
 Suggests: terminatorx
-	    
-# Audio Developpers
+Suggests: sooperlooper
+        
+# Audio developpers
 Suggests: faust
 Suggests: pd
-		
+        
 # KernelRT
 Suggests: kernel-rt-latest
 Suggests: kernel-rt-devel-latest
@@ -150,13 +167,13 @@ Suggests: lilypond-kde4
 
 #########################################################
 
-BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
+BuildArch:  noarch
+BuildRoot:  %{_tmppath}/%{name}-%{version}-root
 
 %description
 This package is a meta-package which install everything
-needed to have a complete sound processing studio.
-- Mandriva for Digital Audio Workstation -
+needed to have a complete sound creation and processing studio.
+- Mandriva for Digital Audio Workstations -
 
 
 %files
