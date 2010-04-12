@@ -16,7 +16,6 @@ Requires: qjacktl
 Suggests: ladish
 Suggests: ac3jack
 Suggests: ffado
-Suggests: jackeq
 
 # Bridges to other sound systems
 Requires: tritonus-fluidsynth
@@ -63,7 +62,7 @@ Requires: caps
 Requires: lv2core
 Requires: slv2
 Requires: swh-lv2
-Requires: ll-pluginss
+Requires: ll-plugins
 Requires: calf
 Requires: ll-plugins-gui
 Requires: invada-studio-plugins-lv2
@@ -106,7 +105,6 @@ Suggests: bristol-rhodesbass
 Suggests: bristol-roadrunner
 Suggests: bristol-solina
 Suggests: bristol-vox
-Suggests: kmid2
 Suggests: qsampler
 Suggests: zynaddsubfx
 
@@ -130,6 +128,7 @@ Suggests: rosegarden
 Suggests: seq24
 Suggests: jackbeat
 Suggests: beast
+Suggests: kmid2
 
 # Effect racks
 Requires: jack-rack
@@ -141,6 +140,7 @@ Suggests: jc_gui
 Suggests: jconv
 Suggests: rakarrack
 Suggests: tuxguitar
+Suggests: jackeq
 
 # Drum machines, live audio tools
 Suggests: hydrogen
@@ -171,7 +171,7 @@ BuildArch:  noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}-root
 
 %description
-This package is a meta-package which install everything
+This package is a meta-package which installs everything
 needed to have a complete sound creation and processing studio.
 - Mandriva for Digital Audio Workstations -
 
