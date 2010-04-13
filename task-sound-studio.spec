@@ -83,7 +83,6 @@ Suggests: qsynth
 Suggests: ams
 Suggests: phasex
 Suggests: bristol
-Suggests: bristol-aks
 Suggests: bristol-arp2600
 Suggests: bristol-axxe
 Suggests: bristol-b3
@@ -92,12 +91,11 @@ Suggests: bristol-explorer
 Suggests: bristol-juno
 Suggests: bristol-memory
 Suggests: bristol-mini
-Suggests: bristol-mixer
 Suggests: bristol-mono
 Suggests: bristol-obx
 Suggests: bristol-obxa
 Suggests: bristol-odyssey
-Suggests: bristol-poly
+Suggests: bristol-poly800
 Suggests: bristol-prophet
 Suggests: bristol-rhodes
 Suggests: bristol-rhodesbass
