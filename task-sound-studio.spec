@@ -78,7 +78,7 @@ Requires: xsynth-dssi
 
 # Standalone Synths
 Requires: fluidsynth
-Requires: yoshimi
+Suggests: yoshimi
 Suggests: qsynth
 Suggests: ams
 Suggests: phasex
@@ -89,7 +89,6 @@ Suggests: bristol-axxe
 Suggests: bristol-b3
 Suggests: bristol-dx
 Suggests: bristol-explorer
-Suggests: bristol-hammond
 Suggests: bristol-juno
 Suggests: bristol-memory
 Suggests: bristol-mini
@@ -109,8 +108,8 @@ Suggests: qsampler
 Suggests: zynaddsubfx
 
 # Simple audio recorders and players
-Requires: jack_capture
-Requires: timemachine
+Suggests: jack_capture
+Suggests: timemachine
 Suggests: qarecord
 Suggests: uade
 Suggests: upse
@@ -131,13 +130,13 @@ Suggests: beast
 Suggests: kmid2
 
 # Effect racks
-Requires: jack-rack
-Requires: zynjacku
+Suggests: jack-rack
+Suggests: zynjacku
 Suggests: ecamegapedal
 Suggests: gnuitar
 Suggests: guitarix
 Suggests: jc_gui
-Suggests: jconv
+Suggests: jconvolver
 Suggests: rakarrack
 Suggests: tuxguitar
 Suggests: jackeq
@@ -151,6 +150,7 @@ Suggests: sooperlooper
 # Audio developpers
 Suggests: faust
 Suggests: pd
+Suggests: drumstick
         
 # KernelRT
 Suggests: kernel-rt-latest
