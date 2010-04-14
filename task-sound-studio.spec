@@ -12,7 +12,7 @@ License: GPLv2+
 Requires: jackit
 Requires: jackit-example-clients
 Requires: laditools
-Requires: qjacktl
+Requires: qjackctl
 Suggests: ladish
 Suggests: ac3jack
 Suggests: ffado
