@@ -133,7 +133,7 @@ Suggests: zynjacku
 Suggests: ecamegapedal
 Suggests: gnuitar
 Suggests: guitarix
-Suggests: jc_gui
+Suggests: jcgui
 Suggests: jconvolver
 Suggests: rakarrack
 Suggests: tuxguitar
