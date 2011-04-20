@@ -1,6 +1,6 @@
 Name: task-sound-studio
 Version: 0.3
-Release: %mkrel 6
+Release: %mkrel 7
 Summary: Meta package for Sound Studio and Music Production
 Group: Sound
 License: GPLv2+
@@ -66,6 +66,7 @@ Requires: ll-plugins
 Requires: calf
 Requires: ll-plugins-gui
 Requires: invada-studio-plugins-lv2
+Requires: foo-yc20
 
 # DSSI system and synth plugins
 Requires: dssi
@@ -81,6 +82,7 @@ Requires: fluidsynth
 Suggests: yoshimi
 Suggests: qsynth
 Suggests: ams
+Suggests: amsynth
 Suggests: phasex
 Suggests: bristol
 Suggests: bristol-arp2600
@@ -103,7 +105,6 @@ Suggests: bristol-roadrunner
 Suggests: bristol-solina
 Suggests: bristol-vox
 Suggests: qsampler
-Suggests: zynaddsubfx
 
 # Simple audio recorders and players
 Suggests: jack_capture
@@ -138,18 +139,19 @@ Suggests: jconvolver
 Suggests: rakarrack
 Suggests: tuxguitar
 Suggests: jackeq
+Suggests: zita-rev1
 
 # Drum machines, live audio tools
 Suggests: hydrogen
 Suggests: mixxx
 Suggests: terminatorx
 Suggests: sooperlooper
-        
+
 # Audio developpers
 Suggests: faust
 Suggests: pd
 Suggests: drumstick
-        
+
 # KernelRT
 Suggests: kernel-rt-latest
 Suggests: kernel-rt-devel-latest
@@ -159,6 +161,7 @@ Suggests: rtirq
 Suggests: xine-jack
 Suggests: mplayer
 Suggests: vlc-plugin-jack
+Suggests: gstreamer0.10-plugins-good
 
 # Desktop-specific configuration files
 Suggests: lilypond-kde4
