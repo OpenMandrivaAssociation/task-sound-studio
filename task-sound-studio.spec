@@ -1,6 +1,6 @@
 Name: task-sound-studio
 Version: 0.3
-Release: %mkrel 7
+Release: %mkrel 8
 Summary: Meta package for Sound Studio and Music Production
 Group: Sound
 License: GPLv2+
@@ -133,7 +133,7 @@ Suggests: jack-rack
 Suggests: zynjacku
 Suggests: ecamegapedal
 Suggests: gnuitar
-Suggests: guitarix
+Suggests: guitarix2
 Suggests: jcgui
 Suggests: jconvolver
 Suggests: rakarrack
