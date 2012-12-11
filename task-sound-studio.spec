@@ -1,26 +1,25 @@
-Name: task-sound-studio
-Version: 0.3
-Release: %mkrel 8
-Summary: Meta package for Sound Studio and Music Production
-Group: Sound
-License: GPLv2+
+Name:		task-sound-studio
+Version:	0.3
+Release:	8
+Summary:	Meta package for Sound Studio and Music Production
+Group:		Sound
+License:	GPLv2+
 
 ## Packages organized by groups and divided in Suggests and Requires
 ####################################################################
 
 # Jack engine-related
-Requires: jackit
-Requires: jackit-example-clients
-Requires: laditools
-Requires: qjackctl
-Suggests: ladish
-Suggests: ac3jack
-Suggests: ffado
+Requires:	jackit
+Requires:	jackit-example-clients
+Requires:	laditools
+Requires:	qjackctl
+Suggests:	ladish
+Suggests:	ac3jack
+Suggests:	ffado
 
 # Bridges to other sound systems
-Requires: tritonus-fluidsynth
-Requires: jackasyn
-Suggests: bse-alsa
+Suggests:	tritonus-fluidsynth
+Requires:	jackasyn
 
 # Basic MIDI utilities
 Suggests: a2jmidid
@@ -128,12 +127,16 @@ Suggests: jackbeat
 Suggests: beast
 Suggests: kmid2
 
+# Trackers
+Suggests: schismtracker
+
+
 # Effect racks
 Suggests: jack-rack
 Suggests: zynjacku
 Suggests: ecamegapedal
 Suggests: gnuitar
-Suggests: guitarix2
+Suggests: guitarix
 Suggests: jcgui
 Suggests: jconvolver
 Suggests: rakarrack
@@ -169,12 +172,12 @@ Suggests: lilypond-kde4
 #########################################################
 
 BuildArch:  noarch
-BuildRoot:  %{_tmppath}/%{name}-%{version}-root
 
 %description
 This package is a meta-package which installs everything
 needed to have a complete sound creation and processing studio.
-- Mandriva for Digital Audio Workstations -
+- Rosa/Mandriva for Digital Audio Workstations -
 
 
 %files
+
