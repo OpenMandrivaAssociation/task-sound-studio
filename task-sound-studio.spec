@@ -11,7 +11,6 @@ License:	GPLv2+
 # Jack engine-related
 Requires:	jackit
 Requires:	jackit-example-clients
-Requires:	laditools
 Requires:	qjackctl
 Suggests:	ladish
 Suggests:	ac3jack
