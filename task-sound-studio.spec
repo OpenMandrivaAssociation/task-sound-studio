@@ -31,7 +31,7 @@ Requires: fluid-soundfont-common
 Requires: fluid-soundfont-gm
 Requires: fluid-soundfont-gs
 Requires: soundfont-utils
-Suggests: swami
+#Suggests: swami
 Requires: timidity-patch-gravis
 Requires: timidity-patch-freepats
 Requires: TiMidity++
@@ -79,7 +79,7 @@ Requires: xsynth-dssi
 Requires: fluidsynth
 Suggests: yoshimi
 Suggests: qsynth
-Suggests: ams
+#Suggests: ams
 Suggests: amsynth
 Suggests: phasex
 Suggests: bristol
@@ -124,7 +124,7 @@ Suggests: rosegarden
 Suggests: seq24
 Suggests: jackbeat
 Suggests: beast
-Suggests: kmid2
+#Suggests: kmid2
 
 # Trackers
 Suggests: schismtracker
@@ -136,7 +136,7 @@ Suggests: zynjacku
 Suggests: ecamegapedal
 Suggests: gnuitar
 Suggests: guitarix
-Suggests: jcgui
+#Suggests: jcgui
 Suggests: jconvolver
 Suggests: rakarrack
 Suggests: tuxguitar
@@ -145,9 +145,9 @@ Suggests: zita-rev1
 
 # Drum machines, live audio tools
 Suggests: hydrogen
-Suggests: mixxx
+#Suggests: mixxx
 Suggests: terminatorx
-Suggests: sooperlooper
+#Suggests: sooperlooper
 
 # Audio developpers
 Suggests: faust
