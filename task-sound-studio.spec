@@ -57,7 +57,7 @@ Requires: blop
 Requires: caps
 
 # LV2 system and plugins
-Requires: lv2core
+Requires: lv2
 Requires: slv2
 Requires: swh-lv2
 Requires: ll-plugins
