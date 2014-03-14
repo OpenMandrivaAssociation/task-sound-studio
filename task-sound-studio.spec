@@ -17,7 +17,6 @@ Suggests:	ac3jack
 Suggests:	ffado
 
 # Bridges to other sound systems
-Suggests:	tritonus-fluidsynth
 Requires:	jackasyn
 
 # Basic MIDI utilities
@@ -40,7 +39,6 @@ Suggests: TiMidity++-interfaces-extra
 # Score and tablature editors
 Requires: lilypond
 Suggests: nted
-Suggests: ktabedit
 Suggests: mscore
 
 # Ladspa system and effect plugins
@@ -133,9 +131,8 @@ Suggests: schismtracker
 # Effect racks
 Suggests: jack-rack
 Suggests: zynjacku
-Suggests: ecamegapedal
 Suggests: gnuitar
-Suggests: guitarix
+Suggests: guitarix2
 #Suggests: jcgui
 Suggests: jconvolver
 Suggests: rakarrack
@@ -146,7 +143,6 @@ Suggests: zita-rev1
 # Drum machines, live audio tools
 Suggests: hydrogen
 #Suggests: mixxx
-Suggests: terminatorx
 #Suggests: sooperlooper
 
 # Audio developpers
@@ -155,8 +151,8 @@ Suggests: pd
 Suggests: drumstick
 
 # KernelRT
-Suggests: kernel-rt-latest
-Suggests: kernel-rt-devel-latest
+Suggests: kernel-nrjQL-realtime-devel-latest
+Suggests: kernel-nrjQL-realtime-latest
 Suggests: rtirq
 
 # Media players
@@ -164,9 +160,6 @@ Suggests: xine-jack
 Suggests: mplayer
 Suggests: vlc-plugin-jack
 Suggests: gstreamer0.10-plugins-good
-
-# Desktop-specific configuration files
-Suggests: lilypond-kde4
 
 #########################################################
 
