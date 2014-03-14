@@ -1,6 +1,6 @@
 Name:		task-sound-studio
 Version:	0.3
-Release:	9
+Release:	10
 Summary:	Meta package for Sound Studio and Music Production
 Group:		Sound
 License:	GPLv2+
