@@ -30,7 +30,7 @@ Requires: fluid-soundfont-common
 Requires: fluid-soundfont-gm
 Requires: fluid-soundfont-gs
 Requires: soundfont-utils
-#Suggests: swami
+Suggests: swami
 Requires: timidity-patch-gravis
 Requires: timidity-patch-freepats
 Requires: TiMidity++
@@ -77,7 +77,7 @@ Requires: xsynth-dssi
 Requires: fluidsynth
 Suggests: yoshimi
 Suggests: qsynth
-#Suggests: ams
+Suggests: ams
 Suggests: amsynth
 Suggests: phasex
 Suggests: bristol
@@ -142,7 +142,7 @@ Suggests: zita-rev1
 
 # Drum machines, live audio tools
 Suggests: hydrogen
-#Suggests: mixxx
+Suggests: mixxx
 Suggests: sooperlooper
 
 # Audio developpers
