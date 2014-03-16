@@ -122,7 +122,7 @@ Suggests: rosegarden
 Suggests: seq24
 Suggests: jackbeat
 Suggests: beast
-#Suggests: kmid2
+Suggests: kmid2
 
 # Trackers
 Suggests: schismtracker
@@ -133,7 +133,7 @@ Suggests: jack-rack
 Suggests: zynjacku
 Suggests: gnuitar
 Suggests: guitarix2
-#Suggests: jcgui
+Suggests: jcgui
 Suggests: jconvolver
 Suggests: rakarrack
 Suggests: tuxguitar
@@ -143,7 +143,7 @@ Suggests: zita-rev1
 # Drum machines, live audio tools
 Suggests: hydrogen
 #Suggests: mixxx
-#Suggests: sooperlooper
+Suggests: sooperlooper
 
 # Audio developpers
 Suggests: faust
