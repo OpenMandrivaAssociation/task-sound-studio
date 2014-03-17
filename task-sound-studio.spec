@@ -39,7 +39,7 @@ Suggests: TiMidity++-interfaces-extra
 # Score and tablature editors
 Requires: lilypond
 Suggests: nted
-Suggests: mscore
+Suggests: musescore
 
 # Ladspa system and effect plugins
 Requires: ladspa
