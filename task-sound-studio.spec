@@ -151,8 +151,9 @@ Suggests: pd
 Suggests: drumstick
 
 # KernelRT
-Suggests: kernel-nrjQL-realtime-devel-latest
-Suggests: kernel-nrjQL-realtime-latest
+# cooker doesnt have realtime
+#Suggests: kernel-nrjQL-realtime-devel-latest
+#Suggests: kernel-nrjQL-realtime-latest
 Suggests: rtirq
 
 # Media players
