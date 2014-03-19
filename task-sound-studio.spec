@@ -1,6 +1,6 @@
 Name:		task-sound-studio
 Version:	0.3
-Release:	13
+Release:	14
 Summary:	Meta package for Sound Studio and Music Production
 Group:		Sound
 License:	GPLv2+
@@ -39,7 +39,7 @@ Suggests: TiMidity++-interfaces-extra
 # Score and tablature editors
 Requires: lilypond
 Suggests: nted
-Suggests: musescore
+Suggests: musescore >= 1.1
 
 # Ladspa system and effect plugins
 Requires: ladspa
